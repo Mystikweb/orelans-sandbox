@@ -8,6 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="Microsoft.Orleans.Server" Version="7.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mystikweb.Orleans.ManagementImplementations\Mystikweb.Orleans.ManagementImplementations.csproj" />
+    <ProjectReference Include="..\Mystikweb.Orleans.ReportingImplementations\Mystikweb.Orleans.ReportingImplementations.csproj" />
   </ItemGroup>
 </Project>

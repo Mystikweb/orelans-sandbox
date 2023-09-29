@@ -9,6 +9,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mystikweb.Orleans.Silo.Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mystikweb.Orleans.Silo.Host", "src\Mystikweb.Orleans.Silo.Host\Mystikweb.Orleans.Silo.Host.csproj", "{6CB2D379-266E-4C79-B03C-9364110A88BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mystikweb.Orleans", "src\Mystikweb.Orleans\Mystikweb.Orleans.csproj", "{5341D435-D75D-442D-9113-EEF7CABAE401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mystikweb.Orleans.ReportingInterfaces", "src\Mystikweb.Orleans.ReportingInterfaces\Mystikweb.Orleans.ReportingInterfaces.csproj", "{87B47AC7-7412-4BB4-B891-F49B333F48FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mystikweb.Orleans.ReportingImplementations", "src\Mystikweb.Orleans.ReportingImplementations\Mystikweb.Orleans.ReportingImplementations.csproj", "{429232A1-FE88-4BC7-A477-03BF936AF4DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mystikweb.Orleans.ManagementInterfaces", "src\Mystikweb.Orleans.ManagementInterfaces\Mystikweb.Orleans.ManagementInterfaces.csproj", "{D9A4506B-650D-4C86-B1B3-0BF0BEAC5D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mystikweb.Orleans.ManagementImplementations", "src\Mystikweb.Orleans.ManagementImplementations\Mystikweb.Orleans.ManagementImplementations.csproj", "{9B9908E6-656E-4F60-95E4-6DA866ADE37A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +36,34 @@ Global
 		{6CB2D379-266E-4C79-B03C-9364110A88BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CB2D379-266E-4C79-B03C-9364110A88BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CB2D379-266E-4C79-B03C-9364110A88BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5341D435-D75D-442D-9113-EEF7CABAE401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5341D435-D75D-442D-9113-EEF7CABAE401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5341D435-D75D-442D-9113-EEF7CABAE401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5341D435-D75D-442D-9113-EEF7CABAE401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B47AC7-7412-4BB4-B891-F49B333F48FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B47AC7-7412-4BB4-B891-F49B333F48FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B47AC7-7412-4BB4-B891-F49B333F48FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B47AC7-7412-4BB4-B891-F49B333F48FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429232A1-FE88-4BC7-A477-03BF936AF4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429232A1-FE88-4BC7-A477-03BF936AF4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429232A1-FE88-4BC7-A477-03BF936AF4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429232A1-FE88-4BC7-A477-03BF936AF4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A4506B-650D-4C86-B1B3-0BF0BEAC5D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A4506B-650D-4C86-B1B3-0BF0BEAC5D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A4506B-650D-4C86-B1B3-0BF0BEAC5D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A4506B-650D-4C86-B1B3-0BF0BEAC5D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9908E6-656E-4F60-95E4-6DA866ADE37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9908E6-656E-4F60-95E4-6DA866ADE37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9908E6-656E-4F60-95E4-6DA866ADE37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9908E6-656E-4F60-95E4-6DA866ADE37A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E7B852DC-1FF0-4572-AF66-87C35CDB28DB} = {61A0CD7B-611D-4B12-9355-F676A9D82AD5}
 		{6CB2D379-266E-4C79-B03C-9364110A88BC} = {61A0CD7B-611D-4B12-9355-F676A9D82AD5}
+		{5341D435-D75D-442D-9113-EEF7CABAE401} = {61A0CD7B-611D-4B12-9355-F676A9D82AD5}
+		{87B47AC7-7412-4BB4-B891-F49B333F48FC} = {61A0CD7B-611D-4B12-9355-F676A9D82AD5}
+		{429232A1-FE88-4BC7-A477-03BF936AF4DD} = {61A0CD7B-611D-4B12-9355-F676A9D82AD5}
+		{D9A4506B-650D-4C86-B1B3-0BF0BEAC5D12} = {61A0CD7B-611D-4B12-9355-F676A9D82AD5}
+		{9B9908E6-656E-4F60-95E4-6DA866ADE37A} = {61A0CD7B-611D-4B12-9355-F676A9D82AD5}
 	EndGlobalSection
 EndGlobal
